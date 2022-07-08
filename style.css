@@ -1,5 +1,4 @@
 body{
-    /*background-color: rgb(0, 159, 238);*/
     background-color: rgba(41, 6, 218, 0.696);
 }
 
@@ -11,7 +10,6 @@ img{
 
 #keyboard{
     margin-block: 4%;
-    /* background-color: rgba(81, 0, 255, 0.453); */
     background-color: rgba(6, 111, 216, 0.696);
     display: flex;
     flex-flow: nowrap column;
@@ -72,8 +70,6 @@ img{
 
 
 
-
-
 #up{
     position: relative;
     bottom: 70%;
@@ -102,6 +98,7 @@ img{
     right: 35%;
     font-size: smaller;
 }
+
 
 
 #stretch{
