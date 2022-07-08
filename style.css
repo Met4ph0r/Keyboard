@@ -4,9 +4,8 @@ body{
 }
 
 img{
-    width: 70%;
+    width: 80%;
     position: relative;
-    bottom: 20%;
     opacity: 0.75;
 }
 
@@ -17,8 +16,8 @@ img{
     display: flex;
     flex-flow: nowrap column;
     padding: 2%;
-    max-width: 65%;
-    min-height: 40%;
+    min-width: 50%;
+    max-width: 80%;
     margin-inline: auto;
     box-shadow: 10px 10px #555;
     transition: 500ms ease-in-out 25ms;
@@ -43,19 +42,20 @@ img{
     background-color: rgb(132, 179, 255);
     padding: 1%;
     margin: 3px;
-    height: 15px;
+    height: 35px;
     color: rgb(0, 0, 0);
     border: solid white;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 6px;
     flex-grow: 1;
     text-align: center;
     flex-basis:15px;
     box-shadow: -2px -2px #333 inset;
+    font-size: x-large;
+    font-family:'Segoe UI';
 }
 
 .keys:hover{
-    /*font-size: larger;*/
     flex-grow: 1.025;
     transform: translateY(-3px);
     transition: 100ms ease-in-out;
@@ -74,43 +74,33 @@ img{
 
 
 
-
-
-
-
 #up{
     position: relative;
-    bottom: 130%;
+    bottom: 70%;
     right: 30%;
     font-weight: bold;
 }
 
 #up2{
     position: relative;
-    bottom: 70%;
+    bottom: 40%;
     right: 50%;
+    font-size: smaller;
     font-weight: bold;
 }
 
-#up3{
-    position: relative;
-    bottom: 65%;
-    right: 40%;
-    font-weight: bold;
-    font-size:small;
-}
 
 #down{
     position: relative;
-    top: 30%;
+    top: 45%;
+    right: 25%;
 }
 
 #down2{
     position: relative;
-    top: 15%;
-    right: 20%;
-    font-size: 70%;
-    font-weight:bolder;
+    top: 35%;
+    right: 35%;
+    font-size: smaller;
 }
 
 
