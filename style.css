@@ -1,6 +1,6 @@
 body{
     /*background-color: rgb(0, 159, 238);*/
-    background-color: #007b27;
+    background-color: rgba(41, 6, 218, 0.696);
 }
 
 img{
@@ -11,13 +11,24 @@ img{
 }
 
 #keyboard{
-    background-color: rgba(81, 0, 255, 0.453);
+    margin-block: 4%;
+    /* background-color: rgba(81, 0, 255, 0.453); */
+    background-color: rgba(6, 111, 216, 0.696);
     display: flex;
     flex-flow: nowrap column;
     padding: 2%;
     max-width: 85%;
     margin-inline: auto;
+    box-shadow: 10px 10px #555;
+    transition: 500ms ease-in-out 25ms;
 }
+
+#keyboard:hover{
+    transform: translateY(-5px);
+    box-shadow: 15px 15px rgb(104, 104, 104);
+    
+}
+
 
 #row{
     display: flex;
@@ -46,6 +57,7 @@ img{
     /*font-size: larger;*/
     flex-grow: 1.025;
     transform: translateY(-3px);
+    transition: 100ms ease-in-out;
 }
 
 .keys:active{
