@@ -1,5 +1,6 @@
 body{
-    background-color: rgba(41, 6, 218, 0.696);
+    /*background-color: rgb(0, 159, 238);*/
+    background-image: url("./885204.jpg");
 }
 
 img{
@@ -10,20 +11,21 @@ img{
 
 #keyboard{
     margin-block: 4%;
-    background-color: rgba(6, 111, 216, 0.696);
+    /* background-color: rgba(81, 0, 255, 0.453); */
+    background-color: rgba(255, 255, 255, 0.532);
     display: flex;
     flex-flow: nowrap column;
     padding: 2%;
     min-width: 50%;
     max-width: 80%;
     margin-inline: auto;
-    box-shadow: 10px 10px #555;
+    box-shadow: 2px 6px rgb(0, 106, 206);
     transition: 500ms ease-in-out 25ms;
 }
 
 #keyboard:hover{
     transform: translateY(-5px);
-    box-shadow: 15px 15px rgb(104, 104, 104);
+    box-shadow: 8px 15px rgb(0, 86, 152);
     
 }
 
@@ -37,14 +39,14 @@ img{
 
 .keys{
     user-select: none;
-    background-color: rgb(132, 179, 255);
+    background-color: rgba(255, 255, 255, 0.563);
     padding: 1%;
     margin: 3px;
     height: 35px;
     color: rgb(0, 0, 0);
     border: solid white;
-    border-width: 2px;
-    border-radius: 6px;
+    border-width: 1px;
+    border-radius: 10px;
     flex-grow: 1;
     text-align: center;
     flex-basis:15px;
@@ -63,9 +65,11 @@ img{
     transform: translateY(2px);
     text-transform:inherit;
     background-color: rgb(60, 135, 255);
-    box-shadow: 2px 2px #333 inset;
+    box-shadow: 3px 3px #333 inset;
     color: white;
 }
+
+
 
 
 
