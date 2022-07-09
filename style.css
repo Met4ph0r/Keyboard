@@ -54,7 +54,7 @@ img{
 }
 
 .keys:hover{
-    flex-grow: 1.025;
+    flex-grow: 1.2;
     transform: translateY(-3px);
     transition: 100ms ease-in-out;
 }
