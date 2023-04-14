@@ -11,13 +11,11 @@ img{
 
 #keyboard{
     margin-block: 5%;
-    /* background-color: rgba(81, 0, 255, 0.453); */
     background-color: rgba(255, 255, 255, 0.532);
     display: flex;
     flex-flow: nowrap column;
     padding: 2%;
-    min-width: 50%;
-    max-width: 80%;
+    min-width: fit-content;
     margin-inline: auto;
     box-shadow: 2px 6px rgb(0, 106, 206);
     transition: 500ms ease-in-out 25ms;
@@ -40,7 +38,7 @@ img{
 .keys{
     user-select: none;
     background-color: rgba(255, 255, 255, 0.563);
-    padding: 1%;
+    padding: 11px 8px;
     margin: 3px;
     height: 35px;
     color: rgb(0, 0, 0);
@@ -68,10 +66,6 @@ img{
     box-shadow: 3px 3px #333 inset;
     color: white;
 }
-
-
-
-
 
 
 #up{
