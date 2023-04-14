@@ -11,12 +11,12 @@ img{
 
 #keyboard{
     margin-block: 5%;
+    margin-inline: 5%;
     background-color: rgba(255, 255, 255, 0.532);
     display: flex;
     flex-flow: nowrap column;
     padding: 2%;
     min-width: fit-content;
-    margin-inline: auto;
     box-shadow: 2px 6px rgb(0, 106, 206);
     transition: 500ms ease-in-out 25ms;
 }
